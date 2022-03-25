@@ -15,25 +15,3 @@ section p {
   max-width: 75%;
   margin: 0 auto;
 }
-
-.scrooler-dots {
-  position: fixed;
-  top: 50%;
-  right: 0;
-  display: flex;
-  flex-direction: column;
-  transform: translateY(-50%);
-}
-
-.scrooler-dots .dot{
-  height: 30px;
-  width: 30px;
-  background-color: lightblue;
-  margin: 10px 30px;
-  border-radius: 50%;
-  cursor: pointer;
-}
-
-.scrooler-dots .dot.active{
-  background-color: rgb(8, 8, 153);
-}
